@@ -1,0 +1,387 @@
+.home {
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right;
+    .test {
+        font-weight: bold;
+        font-style: italic;
+    }
+    .billboard-section {
+        padding: 20px 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .top-frame {
+            height: 50px;
+            width: 970px;
+            background-color: #d3d3d3;
+            border: 1px solid #8c8c8c;
+            margin-bottom: 40px;
+            text-align: center;
+            vertical-align: middle;
+            .frame-billboard-text {
+                font-size: 30px;
+                font-weight: bold;
+                color: #505050;
+            }
+        }
+        .billboard {
+            height: 250px;
+            width: 970px;
+            background-color: #d3d3d3;
+            border: 1px solid #8c8c8c;
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+            .frame-billboard-text {
+                color: #505050;
+                font-size: 30px;
+                font-weight: bold;
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    .editors-choice-section {
+        padding: 20px 150px;
+        margin-bottom: 60px;
+        .editor-text {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .curated-text {
+            font-size: 22px;
+            color: #909090;
+        }
+        .card-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+    .foryou-section {
+        height: 405px;
+        background-color: #fcd5db;
+        background-repeat: no-repeat;
+        background-size: 21%;
+        background-position: left bottom;
+        padding: 16px 163px 16px 273px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .foryou-highlight {
+            max-width: 297px;
+            margin-right: 20px;
+            .foryou-title {
+                font-weight: bold;
+                font-size: 25px;
+            }
+            .foryou-desc {
+                font-size: 19px;
+                margin-bottom: 25px;
+            }
+            .button-matches {
+                width: 188px;
+                height: 46px;
+                background-color: #d42346;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                float: right;
+                .button-text {
+                    color: #ffffff;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+        .card-margin {
+            margin-right: 20px;
+        }
+        
+    }
+    .internal-campaign-container {
+        padding: 60px 60px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .billboard {
+            height: 250px;
+            width: 970px;
+            background-color: #d3d3d3;
+            border: 1px solid #8c8c8c;
+            text-align: center;
+            position: relative;
+            .frame-billboard-text {
+                color: #505050;
+                font-size: 30px;
+                font-weight: bold;
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    .lates-article-section {
+        padding: 20px 150px;
+        .editor-text {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .see-more-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .curated-text {
+                font-size: 22px;
+                color: #909090;
+            }
+            .seemore-text {
+                font-size: 22px;
+                color: #d42346;
+            }
+        }
+        .articles-container {
+
+        }
+    }
+    .latest-review-section {
+        padding: 20px 150px;
+        .editor-text {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .review-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .see-more-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 720px;
+                .curated-text {
+                    font-size: 22px;
+                    color: #909090;
+                }
+                .seemore-text {
+                    font-size: 22px;
+                    color: #d42346;
+                    float: right !important;
+                }
+            }
+            .mr-2 {
+                height: 250px;
+                width: 300px;
+                background-color: cornflowerblue;
+                background-color: #d3d3d3;
+                border: 1px solid #8c8c8c;
+                text-align: center;
+                position: relative;
+                .frame-billboard-text {
+                    color: #505050;
+                    font-size: 30px;
+                    font-weight: bold;
+                    margin: 0;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+    }
+    .popular-group-section {
+        padding: 20px 150px;
+        .editor-text {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .see-more-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .curated-text {
+                font-size: 22px;
+                color: #909090;
+            }
+            .seemore-text {
+                font-size: 22px;
+                color: #d42346;
+            }
+        }
+        .groupcaard-container {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .latest-videos-section {
+        padding: 20px 150px;
+        .editor-text {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .see-more-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .curated-text {
+                font-size: 22px;
+                color: #909090;
+            }
+            .seemore-text {
+                font-size: 22px;
+                color: #d42346;
+            }
+        }
+        .video-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .side-video {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+    }
+    .trending-section {
+        padding: 20px 150px;
+        .editor-text {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .see-more-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .curated-text {
+                font-size: 22px;
+                color: #909090;
+            }
+            .seemore-text {
+                font-size: 22px;
+                color: #d42346;
+            }
+        }
+    }
+    .topbrands-section {
+        padding: 20px 150px;
+        border-bottom: 1px solid #cacaca;
+        .editor-text {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .see-more-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            .curated-text {
+                font-size: 22px;
+                color: #909090;
+            }
+            .seemore-text {
+                font-size: 22px;
+                color: #d42346;
+            }
+        }
+        .brand-container {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 55px;
+            .icon-brand {
+                object-fit: contain;
+                height: 66px;
+            }
+            .maybe-brand {
+                object-fit: contain;
+                height: 20px;
+            }
+        }
+        .female-daily {
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .fd-desc {
+            font-size: 21px;
+            font-weight: 500;
+            margin-bottom: 55px;
+        }
+    }
+    .footer {
+        padding: 30px 150px;
+        .footer-body {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            .first-container {
+                .footer-menu {
+                    font-weight: bold;
+                }
+            }
+            .download-container{
+                flex-direction: row;
+                .footer-menu {
+                    font-weight: bold;
+                }
+                .download-logo {
+                    object-fit: contain;
+                    height: 41px;
+                    margin-right: 20px;
+                }
+            }
+        }
+        .lower-footer {
+            display: flex;
+            flex-direction: row;
+            .fd-logo {
+                height: 40px;
+                object-fit: contain;
+            }
+            .copyright-container {
+                flex-direction: column;
+            }
+        }
+    }
+    .bottom {
+        display: flex;
+        justify-content: center;
+        .billboard {
+            height: 50px;
+            width: 970px;
+            background-color: #d3d3d3;
+            border: 1px solid #8c8c8c;
+            text-align: center;
+            position: relative;
+            .frame-billboard-text {
+                color: #505050;
+                font-size: 25px;
+                font-weight: bold;
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}

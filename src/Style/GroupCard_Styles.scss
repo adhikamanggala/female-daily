@@ -1,0 +1,40 @@
+.group-card {
+    height: 383px;
+    width: 260px;
+    border: 1px solid #dcdbdc;
+    border-radius: 10px;
+    padding: 13px;
+    // border: 1px solid #333;
+    box-shadow: 4px 4px 10px 0.2px rgb(206, 206, 206);
+    .fdimg-container {
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        .fdtalk-image {
+            height: 180px;
+            margin-bottom: 5px;
+        }
+    }
+    .talk-title {
+        font-weight: bold;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    .talk-desc {
+        text-align: center;
+        font-weight: 500;
+    }
+    .icons-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 10px;
+        .talk-icons {
+            object-fit: contain;
+            height: 17px;
+        }
+    }
+}

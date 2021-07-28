@@ -1,0 +1,80 @@
+.navbar {
+    height: 76px;
+    padding: 0px;
+    border-bottom: 1px solid #e7e7e7;
+    .test {
+        font-weight: bold;
+        font-style: italic;
+        background-color: aqua;
+    }
+    .left-navbar {
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        .icon-menu {
+            object-fit: contain;
+            height: 30px;
+        }
+        .fd-logo {
+            height: 38px;
+            object-fit: contain;
+            margin-left: 20px;
+        }
+        .search-bar {
+            border: 1px solid #e7e7e7;
+            border-radius: 5px;
+            font-size: 16px;
+            height: 48px;
+            width: 78%;
+            display: flex;
+            align-items: center;
+            margin-left: 30px;
+            padding: 0px 20px;
+            input {
+                border: none;
+                width: 80%;
+            }
+            input:focus{
+                outline: none;
+            }
+            .icon-search {
+                object-fit: contain;
+                height: 20px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .right-navbar {
+        background-color: #d52447;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 26px;
+        .icon-person {
+            height: 22px;
+            object-fit: contain;
+            margin-right: 10px;
+        }
+        .signin-button {
+            margin: 0px;
+            color: #ffffff;
+            font-size: 16px;  
+        }
+    }
+}
+
+.lower-navbar {
+    height: 50px;
+    padding: 10px 100px;
+    border-bottom: 2px solid #e7e7e7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    .category-text {
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-left: 35px;
+    }
+}
